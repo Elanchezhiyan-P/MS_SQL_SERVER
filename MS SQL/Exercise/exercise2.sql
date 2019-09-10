@@ -1,0 +1,7 @@
+DECLARE @I AS INT = 1;
+WHILE @I <= 10
+BEGIN
+PRINT @I;
+IF @I = 6 BREAK;
+SET @I = @I + 1;
+END;
